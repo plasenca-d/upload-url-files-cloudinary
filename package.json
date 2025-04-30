@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "start": "bun run src/index.ts",
-    "dev": "bun --watch run src/index.ts"
+    "dev": "bun --watch run src/index.ts",
+    "delete-all": "bun run src/delete_all_files_.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
